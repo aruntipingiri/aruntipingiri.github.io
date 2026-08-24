@@ -1,59 +1,235 @@
-# Arun Tipingiri
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Arun Tipingiri | Solution Architect & ML Researcher</title>
+  <meta name="description" content="Academic and professional homepage of Arun Tipingiri.">
+  <style>
+    :root {
+      --primary: #0f172a;
+      --accent: #2563eb;
+      --text: #334155;
+      --light-bg: #f8fafc;
+      --border: #e2e8f0;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      line-height: 1.65;
+      color: var(--text);
+      background-color: #ffffff;
+      padding: 2.5rem 1.5rem;
+    }
+    .container {
+      max-width: 860px;
+      margin: 0 auto;
+    }
+    header {
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 2rem;
+      margin-bottom: 2.5rem;
+    }
+    h1 {
+      color: var(--primary);
+      font-size: 2.25rem;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+    }
+    .subtitle {
+      font-size: 1.15rem;
+      color: var(--accent);
+      font-weight: 600;
+      margin-top: 0.35rem;
+    }
+    .contact-links {
+      margin-top: 1rem;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1.25rem;
+      font-size: 0.95rem;
+    }
+    .contact-links a {
+      color: var(--primary);
+      text-decoration: none;
+      font-weight: 500;
+      border-bottom: 1px dotted var(--primary);
+    }
+    .contact-links a:hover {
+      color: var(--accent);
+      border-bottom-style: solid;
+    }
+    section {
+      margin-bottom: 2.75rem;
+    }
+    h2 {
+      color: var(--primary);
+      font-size: 1.35rem;
+      font-weight: 700;
+      border-bottom: 2px solid var(--border);
+      padding-bottom: 0.4rem;
+      margin-bottom: 1.25rem;
+      letter-spacing: -0.01em;
+    }
+    p { margin-bottom: 1rem; }
+    .pub-card {
+      background: var(--light-bg);
+      border-left: 4px solid var(--accent);
+      padding: 1.25rem;
+      border-radius: 0 6px 6px 0;
+      margin-bottom: 1.25rem;
+    }
+    .pub-title {
+      font-weight: 700;
+      color: var(--primary);
+      font-size: 1.05rem;
+      margin-bottom: 0.3rem;
+    }
+    .pub-venue {
+      font-size: 0.92rem;
+      font-weight: 600;
+      color: var(--accent);
+      margin-bottom: 0.5rem;
+    }
+    .badge-oral {
+      display: inline-block;
+      background: #dc2626;
+      color: #ffffff;
+      font-size: 0.75rem;
+      font-weight: 700;
+      padding: 0.15rem 0.5rem;
+      border-radius: 4px;
+      text-transform: uppercase;
+      margin-left: 0.5rem;
+    }
+    .pub-desc {
+      font-size: 0.92rem;
+      color: var(--text);
+      margin-bottom: 0.75rem;
+    }
+    .pub-links a {
+      font-size: 0.85rem;
+      font-weight: 600;
+      color: var(--accent);
+      text-decoration: none;
+      margin-right: 1rem;
+    }
+    .pub-links a:hover { text-decoration: underline; }
+    .grid-two {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 1.5rem;
+    }
+    @media(min-width: 680px) {
+      .grid-two { grid-template-columns: 1fr 1fr; }
+    }
+    .item-block { margin-bottom: 1.25rem; }
+    .item-title { font-weight: 700; color: var(--primary); }
+    .item-sub { font-size: 0.9rem; color: #64748b; margin-bottom: 0.25rem; }
+    ul.skills-list {
+      list-style-type: none;
+      padding-left: 0;
+    }
+    ul.skills-list li {
+      margin-bottom: 0.5rem;
+      font-size: 0.95rem;
+    }
+    ul.skills-list strong { color: var(--primary); }
+  </style>
+</head>
+<body>
 
-**Machine Learning Researcher & Systems Architect**  
-Atlanta, GA | ✉️ [atipingiri3@gatech.edu](mailto:atipingiri3@gatech.edu) | 🔗 [GitHub Homepage](https://aruntipingiri.github.io)
+  <div class="container">
+    
+    <header>
+      <h1>Arun Tipingiri</h1>
+      <div class="subtitle">Enterprise Solution Architect &amp; Machine Learning Researcher</div>
+      <div class="contact-links">
+        <span>📍 Alpharetta, GA</span>
+        <a href="https://www.linkedin.com/in/aruntipingiri" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="https://github.com/aruntipingiri" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://scholar.google.com" target="_blank" rel="noopener">Google Scholar</a>
+      </div>
+    </header>
 
----
+    <section>
+      <h2>About Me</h2>
+      <p>
+        I bridge the gap between large-scale enterprise software systems and modern machine learning[cite: 2]. With 20+ years of technology architecture and ERP leadership alongside a Master of Science in Computer Science from <strong>Georgia Tech</strong> (specializing in Machine Learning and Computer Vision) and an MBA from <strong>IIM Bangalore</strong>, I specialize in translating complex operational and biological data challenges into resilient software architectures[cite: 2].
+      </p>
+      <p>
+        My research focuses on self-supervised vision foundation models (DINOv3), zero-shot visual clustering, manifold learning, and probabilistic modeling applied to biodiversity archives and open-set visual retrieval[cite: 2].
+      </p>
+    </section>
 
-## 🔬 Research & Technical Interests
-* **Computer Vision & Image Architectures:** Zero-shot clustering, foundation-model representations ($DINOv3$, $BioCLIP$), self-supervised learning, and spatial transformer networks.
-* **Statistical Machine Learning:** Non-parametric methods, high-dimensional vector search ($FAISS$), contrastive learning objectives, and Bayesian inference patterns.
-* **Intelligent Optimization & Pipelines:** Randomized optimization, neural network weight optimization, and end-to-end multi-stage computer vision pipelines.
+    <section>
+      <h2>Publications &amp; Research</h2>
+      <div class="pub-card">
+        <div class="pub-title">
+          Self-Supervised Vision Embeddings Reveal Phenotype-Taxonomy Structure in Digitized Butterfly Collections
+          <span class="badge-oral">Oral Presentation</span>
+        </div>
+        <div class="pub-venue">
+          European Conference on Computer Vision (ECCV 2026) – Computer Vision for Natural Heritage (CVNH) Workshop / Springer[cite: 2]
+        </div>
+        <div class="pub-desc">
+          Developed a zero-shot, taxonomy-free visual clustering and collection triage framework for large-scale natural-history archives using self-supervised Vision Transformers (DINOv3 ViT-L/16)[cite: 2]. Evaluated across 10 focal butterfly genera (741 species, 11,821 images) from an archive of 189k+ specimens, demonstrating that self-supervised embeddings autonomously recover species-level boundaries and isolate phenotypic modes without manual labels[cite: 2].
+        </div>
+        <div class="pub-links">
+          <a href="https://eccv.ecva.net/" target="_blank" rel="noopener">[Workshop Page]</a>
+          <a href="https://github.com/aruntipingiri" target="_blank" rel="noopener">[Code Repository]</a>
+        </div>
+      </div>
+    </section>
 
-## 🎓 Education
-* **M.S. in Computer Science** – Georgia Institute of Technology (OMSCS)  
-  * *Specialization:* Machine Learning and Computer Vision Focus
-* **Master of Business Administration (MBA)** – Indian Institute of Management, Bangalore, India
-* **Bachelor of Engineering (BE)** – National Institute of Technology, Mangalore, India
+    <section>
+      <h2>Education</h2>
+      <div class="item-block">
+        <div class="item-title">Georgia Institute of Technology</div>
+        <div class="item-sub">Master of Science in Computer Science (ML &amp; Computer Vision) | 2024 – 2026[cite: 2]</div>
+        <p style="font-size: 0.92rem; margin-top: 0.25rem;">
+          Specialization in Machine Learning &amp; Computer Vision[cite: 2]. First Author &amp; Oral Presenter at ECCV 2026 CVNH[cite: 2].
+        </p>
+      </div>
+      <div class="item-block">
+        <div class="item-title">Indian Institute of Management, Bangalore</div>
+        <div class="item-sub">Master of Business Administration (MBA)[cite: 2]</div>
+      </div>
+      <div class="item-block">
+        <div class="item-title">National Institute of Technology Karnataka</div>
+        <div class="item-sub">Bachelor of Engineering (BE)[cite: 2]</div>
+      </div>
+    </section>
 
-## 🛠️ Technical Expertise
-* **Languages & Core Platforms:** Python, Java, SQL, PyTorch, Jupyter Notebooks, Git.
-* **Dimensionality Reduction & Manifolds:** Principal Component Analysis (PCA), Independent Component Analysis (ICA), t-SNE, Uniform Manifold Approximation and Projection (UMAP).
-* **Unsupervised Clustering Frameworks:** Agglomerative Hierarchical (Ward Linkage), Density-Based Clustering with Noise (HDBSCAN), Expectation-Maximization (EM) Gaussian Mixture Models (GMM), K-Means.
+    <section>
+      <h2>Technical Competencies</h2>
+      <ul class="skills-list">
+        <li><strong>Machine Learning &amp; CV:</strong> PyTorch, Torchvision, Hugging Face Transformers, OpenCV, Albumentations, scikit-learn, SciPy</li>
+        <li><strong>Clustering &amp; Foundation Models:</strong> DINOv3 (ViT-L/16), OpenCLIP, HDBSCAN, FAISS, t-SNE, UMAP, PCA[cite: 2]</li>
+        <li><strong>Probabilistic Modeling:</strong> Bayesian Inference, PyMC, ArviZ, NetworkX, Modularity Optimization[cite: 2]</li>
+        <li><strong>Enterprise Architecture:</strong> Hybrid Cloud Integrations, Oracle SOA Suite, Enterprise Service Bus (ESB), REST/Java APIs, Oracle EBS, OroCommerce[cite: 2]</li>
+      </ul>
+    </section>
 
----
+    <section>
+      <h2>Industry Leadership</h2>
+      <div class="item-block">
+        <div class="item-title">Solution Architect — Stratix Corporation</div>
+        <div class="item-sub">2018 – Present | Peachtree Corners, GA[cite: 2]</div>
+        <p style="font-size: 0.92rem;">
+          Architect and deliver end-to-end B2B OroCommerce and Oracle EBS platforms, delivering 4–6 client enterprise storefronts annually with integrations spanning Braintree, USPS, and SSO[cite: 2].
+        </p>
+      </div>
+      <div class="item-block">
+        <div class="item-title">Solution Architect &amp; Program Lead — Prior Enterprise Roles</div>
+        <div class="item-sub">Cox Enterprises • Cross Country Home Services • NCR Corporation[cite: 2]</div>
+        <p style="font-size: 0.92rem;">
+          Directed enterprise solution architectures, event-driven IoT layers, and international Oracle EBS R12 deployments across automotive, warranty, and logistics sectors[cite: 2].
+        </p>
+      </div>
+    </section>
 
-## 🖥️ Core Research Projects & Publications
+  </div>
 
-### 1. Self-Supervised Vision Embeddings Reveal Phenotype–Taxonomy Structure in Digitized Butterfly Collections
-* **Objective:** Investigated whether modern self-supervised foundation-model representations can support automated, taxonomy-aware exploration of massive biodiversity collections without using ground-truth species labels during training.
-* **Methodology:** Holding $DINOv3$ pooled embeddings ($D=1024$) fixed, constructed a reproducible genus-level benchmark spanning ten focal Nymphalid butterfly genera. Evaluated linear (PCA) and non-linear (t-SNE, UMAP) spaces mapped into partition-based (Ward) and density-based (HDBSCAN) pipelines.
-* **Key Findings:** Discovered that intrinsic geometric structure (Silhouette space) frequently decouples from external taxonomic labels. Fixed-K partitions (Ward) often capture sub-specific variation, while density cores (HDBSCAN) map stable visual anchors. Demonstrated that clustering "failures" systematically trace back to valid biological evolutionary phenomena including mimicry complexes, sexual dimorphism, and seasonal polyphenism.
-* **Curation Infrastructure:** Isolated low-density points using HDBSCAN outlier assignments ($\hat{c}_i = -1$) to define a practical "triage" workflow for expert-guided collection curation.
-
-### 2. Semantic Search vs. Parametric Classification Systems
-* **Objective:** Designed an empirical study to evaluate the scalability and few-shot learning boundaries of semantic vector spaces against traditional fine-tuned classification architectures when class domains evolve dynamically.
-* **Methodology:** Scaled non-parametric K-Nearest Neighbor (KNN) heads over $FAISS$ indexing vectors derived from DistilBERT and Sentence-BERT (SBERT) models. Addressed structural degradation and catastrophic forgetting in SBERT using a student-teacher distillation regularization objective pairing Cosine Similarity and KL-Divergence losses.
-* **Key Findings:** Demonstrated a clear generalization trade-off: tuned SBERT secured peak performance in fixed-label setups on 20 Newsgroups (**76.4%**) and TREC (**88.8%**), while fine-tuned DistilBERT excelled in few-shot classification boundaries on short, dense strings (**37.8%** on Amazon; **81.5%** on TREC).
-
-### 3. Digit Detection & Localization Pipeline in Natural Scenes ($SVHN$)
-* **Objective:** Built a robust, two-stage location and scale-invariant detection and sequence recognition pipeline for reading multi-digit house numbers from Google Street View natural images.
-* **Methodology:** Combined Contrast Limited Adaptive Histogram Equalization (CLAHE) for illumination normalization with Maximally Stable Extremal Regions (MSER) and multi-scale image pyramids to extract candidate Regions of Interest (ROIs). Developed a Custom CNN from scratch and fine-tuned pre-trained VGG16 backbones via multi-stage transfer learning to handle an 11-class (0-9 + Background) prediction domain.
-* **Key Findings:** Fine-tuned backbones achieved a robust digit classification accuracy of **97.10%**. Developed spatial centroid sorting routines to organize parallel GPU-batched ROI predictions into string sequences (e.g., "123") while isolating failure points caused by structured background noise.
-
-### 4. Bayesian Evaluation of Unsupervised Dimensionality Reducers
-* **Objective:** Formulated a formal statistical validation model to map runtime variability and performance differences between low-dimensional projection engines.
-* **Methodology:** Generated structural runs of 2D t-SNE and 2D UMAP spaces across the *Junonia* butterfly subset. Applied a Bayesian normal model parameterized by $\mu_d \sim \mathcal{N}(0,1)$ and $\sigma_d \sim \text{HalfNormal}(1)$ onto paired run-level performance deltas across randomized seeds.
-* **Key Findings:** Proved via highest density intervals (94% HDI) that t-SNE consistently outscores UMAP on label-aligned biological structures ($P(\mu_d > 0 | \text{data}) \approx 1.0$), while UMAP frequently minimizes intra-cluster geometric dispersion (higher Silhouette scores), mathematically illustrating the mismatch between geometric compactness and true biological boundaries.
-
-### 5. Empirical Performance Optimization in Supervised and Unsupervised Learning
-* **Supervised Learning Frameworks:** Analyzed behavior patterns across KNN, SVM, and Multilayer Perceptron models. Evaluated parameter distributions under feature sparsity constraints (Concrete Compressive Strength dataset) and high-outlier noisy environments (Abalone dataset), balancing fit times against balanced accuracy metrics.
-* **Randomized Optimization:** Formulated performance trajectories comparing Randomized Hill Climbing (RHC), Simulated Annealing (SA), and Genetic Algorithms (GA). Applied these numerical heuristics to combinatorial boundaries (N-Queens, Knapsack) and continuous-state space optimization for weight tuning in deep architectures.
-* **Unsupervised Reductions:** Evaluated cluster compression performance under PCA, ICA, and Randomized Projections (RP), proving that combining PCA mappings with K-Means pipelines maximizes Calinski-Harabasz separation scores on feature-correlated data distributions.
-
----
-
-## 💼 Professional Infrastructure Experience
-* **Solution Architect / Product Owner** (2010 – Present)
-  * Over 20 years of technical management orchestrating large cross-functional teams (up to 60 professionals) deploying distributed, high-volume transactional database frameworks.
-  * Expert at transforming complex software requirements into stable operational code, with deep integration expertise in real-time stream ingestion, automated event-driven IoT architectures, and custom database APIs.
+</body>
+</html>
