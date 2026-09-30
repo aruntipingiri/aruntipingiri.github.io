@@ -6,8 +6,8 @@ layout: null
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Arun Tipingiri | Solution Architect &amp; ML Researcher</title>
-  <meta name="description" content="Academic and professional homepage of Arun Tipingiri.">
+  <title>Arun Tipingiri | Machine Learning &amp; Computer Vision Researcher</title>
+  <meta name="description" content="Academic homepage and research portfolio of Arun Tipingiri.">
   <style>
     :root {
       --primary: #0f172a;
@@ -88,6 +88,14 @@ layout: null
       font-size: 1.05rem;
       margin-bottom: 0.3rem;
     }
+    .pub-authors {
+      font-size: 0.92rem;
+      color: var(--primary);
+      margin-bottom: 0.3rem;
+    }
+    .pub-authors strong {
+      color: var(--accent);
+    }
     .pub-venue {
       font-size: 0.92rem;
       font-weight: 600;
@@ -121,11 +129,15 @@ layout: null
     .item-block { margin-bottom: 1.25rem; }
     .item-title { font-weight: 700; color: var(--primary); }
     .item-sub { font-size: 0.9rem; color: #64748b; margin-bottom: 0.25rem; }
+    ul.standard-list, ul.skills-list {
+      padding-left: 1.25rem;
+      margin-bottom: 1rem;
+    }
     ul.skills-list {
       list-style-type: none;
       padding-left: 0;
     }
-    ul.skills-list li {
+    ul.skills-list li, ul.standard-list li {
       margin-bottom: 0.5rem;
       font-size: 0.95rem;
     }
@@ -138,22 +150,22 @@ layout: null
     
     <header>
       <h1>Arun Tipingiri</h1>
-      <div class="subtitle">Enterprise Solution Architect &amp; Machine Learning Researcher</div>
+      <div class="subtitle">Machine Learning &amp; Computer Vision Researcher</div>
       <div class="contact-links">
         <span>📍 Alpharetta, GA</span>
+        <a href="mailto:atipingiri3@gatech.edu">Email (GT)</a>
         <a href="https://www.linkedin.com/in/aruntipingiri" target="_blank" rel="noopener">LinkedIn</a>
         <a href="https://github.com/aruntipingiri" target="_blank" rel="noopener">GitHub</a>
-        
       </div>
     </header>
 
     <section>
       <h2>About Me</h2>
       <p>
-        I bridge the gap between large-scale enterprise software systems and modern machine learning. With 20+ years of technology architecture and ERP leadership alongside a Master of Science in Computer Science from <strong>Georgia Tech</strong> (specializing in Machine Learning and Computer Vision) and an MBA from <strong>IIM Bangalore</strong>, I specialize in translating complex operational and biological data challenges into resilient software architectures.
+        I am a Machine Learning and Computer Vision researcher and recent M.S. graduate from <strong>Georgia Tech</strong> (Spring 2026), currently preparing for Ph.D. study. My research investigates <strong>self-supervised representation learning</strong>, <strong>open-set visual retrieval</strong>, and <strong>zero-shot clustering in vision foundation models</strong> under severe, fine-grained domain shifts.
       </p>
       <p>
-        My research focuses on self-supervised vision foundation models (DINOv3), zero-shot visual clustering, manifold learning, and probabilistic modeling applied to biodiversity archives and open-set visual retrieval.
+        In a joint collaboration with the <strong>Florida Museum of Natural History</strong> (Prof. Arthur Porto / Moritz Lurig), my work demonstrated that self-supervised vision transformers (DINOv3) autonomously recover fine-grained species boundaries without taxonomic supervision (ECCV 2026 CVNH Oral). My technical approach pairs foundation model representations with non-Euclidean manifold learning, graph modularity, and Bayesian probabilistic inference. Prior to focusing on deep learning research, I established a comprehensive engineering background designing resilient, high-throughput distributed data architectures.
       </p>
     </section>
 
@@ -164,11 +176,14 @@ layout: null
           Self-Supervised Vision Embeddings Reveal Phenotype-Taxonomy Structure in Digitized Butterfly Collections
           <span class="badge-oral">Oral Presentation</span>
         </div>
+        <div class="pub-authors">
+          <strong>Arun Tipingiri</strong>, Arthur Porto
+        </div>
         <div class="pub-venue">
           European Conference on Computer Vision (ECCV 2026) – Computer Vision for Natural Heritage (CVNH) Workshop / Springer
         </div>
         <div class="pub-desc">
-          Developed a zero-shot, taxonomy-free visual clustering and collection triage framework for large-scale natural-history archives using self-supervised Vision Transformers (DINOv3 ViT-L/16). Evaluated across 10 focal butterfly genera (741 species, 11,821 images) from an archive of 189k+ specimens, demonstrating that self-supervised embeddings autonomously recover species-level boundaries and isolate phenotypic modes without manual labels.
+          Developed a zero-shot, taxonomy-free visual clustering and collection triage framework for large-scale natural-history archives using self-supervised Vision Transformers (DINOv3 ViT-L/16). Evaluated across 10 focal butterfly genera (741 species, 11,821 images) from an archive of 189k+ specimens, demonstrating that self-supervised embeddings autonomously recover species-level boundaries and isolate phenotypic modes without manual annotations. Conducted via Georgia Tech CS 8903 / 6999 research credits in collaboration with the Florida Museum of Natural History.
         </div>
         <div class="pub-links">
           <a href="https://eccv.ecva.net/" target="_blank" rel="noopener">[Workshop Page]</a>
@@ -178,12 +193,21 @@ layout: null
     </section>
 
     <section>
+      <h2>Research Interests</h2>
+      <ul class="standard-list">
+        <li><strong>Generalized Category Discovery &amp; Open-Set Retrieval:</strong> Metric learning, manifold learning, and dynamic parameter-space partitioning to identify and cluster novel visual classes without catastrophic forgetting.</li>
+        <li><strong>Multimodal Foundation Model Verification:</strong> Mitigating agreement bias and perceptual hallucinations in vision-language models when evaluating fine-grained, open-world sensory data.</li>
+        <li><strong>Geometric &amp; Graph-Structured Representations:</strong> Intersecting continuous representation learning with discrete graph topologies and non-Euclidean geometries for structured visual reasoning.</li>
+      </ul>
+    </section>
+
+    <section>
       <h2>Education</h2>
       <div class="item-block">
         <div class="item-title">Georgia Institute of Technology</div>
-        <div class="item-sub">Master of Science in Computer Science (ML &amp; Computer Vision) | 2024 – 2026</div>
+        <div class="item-sub">Master of Science in Computer Science (ML &amp; Computer Vision Specialization) | 2024 – 2026</div>
         <p style="font-size: 0.92rem; margin-top: 0.25rem;">
-          Specialization in Machine Learning &amp; Computer Vision. First Author &amp; Oral Presenter at ECCV 2026 CVNH.
+          First Author &amp; Oral Presenter at ECCV 2026 CVNH; CS 8903 / CS 6999 Research Credits under Prof. Arthur Porto; CS 7643 Deep Learning (Spring 2025).
         </p>
       </div>
       <div class="item-block">
@@ -199,27 +223,27 @@ layout: null
     <section>
       <h2>Technical Competencies</h2>
       <ul class="skills-list">
-        <li><strong>Machine Learning &amp; CV:</strong> PyTorch, Torchvision, Hugging Face Transformers, OpenCV, Albumentations, scikit-learn, SciPy</li>
-        <li><strong>Clustering &amp; Foundation Models:</strong> DINOv3 (ViT-L/16), OpenCLIP, HDBSCAN, FAISS, t-SNE, UMAP, PCA</li>
-        <li><strong>Probabilistic Modeling:</strong> Bayesian Inference, PyMC, ArviZ, NetworkX, Modularity Optimization</li>
-        <li><strong>Enterprise Architecture:</strong> Hybrid Cloud Integrations, Oracle SOA Suite, Enterprise Service Bus (ESB), REST/Java APIs, Oracle EBS, OroCommerce</li>
+        <li><strong>Core ML &amp; Computer Vision:</strong> PyTorch, Torchvision, Hugging Face Transformers, OpenCV, Albumentations, scikit-learn, SciPy</li>
+        <li><strong>Foundation Models &amp; Retrieval:</strong> DINOv3 (ViT-L/16), OpenCLIP, FAISS, HDBSCAN, UMAP, t-SNE, PCA, Metric Learning</li>
+        <li><strong>Probabilistic &amp; Graph Modeling:</strong> PyMC, ArviZ, Bayesian Inference, NetworkX, Modularity Optimization</li>
+        <li><strong>Systems &amp; High-Performance Computing:</strong> High-Performance Computing (HPC/SLURM), Linux/Bash, Large-Scale Data Pipelines, Distributed Systems Architecture</li>
       </ul>
     </section>
 
     <section>
-      <h2>Industry Leadership</h2>
+      <h2>Systems Engineering &amp; Professional Background</h2>
       <div class="item-block">
-        <div class="item-title">Solution Architect — Stratix Corporation</div>
+        <div class="item-title">Lead Solution Architect — Stratix Corporation</div>
         <div class="item-sub">2018 – Present | Peachtree Corners, GA</div>
         <p style="font-size: 0.92rem;">
-          Architect and deliver end-to-end B2B OroCommerce and Oracle EBS platforms, delivering 4–6 client enterprise storefronts annually with integrations spanning Braintree, USPS, and SSO.
+          Architect end-to-end distributed transaction and inventory platforms, handling high-volume operational workflows and mission-critical cloud integrations across multi-tier enterprise systems.
         </p>
       </div>
       <div class="item-block">
-        <div class="item-title">Solution Architect &amp; Program Lead — Prior Enterprise Roles</div>
+        <div class="item-title">Solution Architect &amp; Technical Lead — Prior Enterprise Roles</div>
         <div class="item-sub">Cox Enterprises • Cross Country Home Services • NCR Corporation</div>
         <p style="font-size: 0.92rem;">
-          Directed enterprise solution architectures, event-driven IoT layers, and international Oracle EBS R12 deployments across automotive, warranty, and logistics sectors.
+          Led system architecture for event-driven data streaming layers, distributed services, and enterprise-scale software deployments across automotive, logistics, and supply chain sectors.
         </p>
       </div>
     </section>
